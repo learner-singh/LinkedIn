@@ -52,13 +52,19 @@ ul {
     margin: 0 auto;
 }
 
+ .sidebar-1, .main {
+    margin-top: 50px;
+}
+
 .header {
     background-color: #fff;
     /* height: 50px; */
     /* width: 100%; */
     /* position: sticky; */
-    /* position: fixed; */
-    /* top: 0px; */
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 100;
 }
 
 /* .container {
@@ -529,6 +535,13 @@ a:hover, #active a{
 .main .post .post-header i {
     font-size: 20px;
     line-height: 32px;
+    width: 32px;
+    text-align: center;
+}
+
+.main .post .post-header i:hover {
+    background-color: rgba(0,0,0, 0.1);
+    border-radius: 50%;
 }
 
 .main .post .post-by {
@@ -661,7 +674,7 @@ a:hover, #active a{
 .sidebar-2 {
     width: 28%;   
     color: rgba(0,0,0,0.6);  
-    margin-top: -17px;
+    margin-top: 33px;
 }
 
 .sidebar-2 .news {
