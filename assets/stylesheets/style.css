@@ -53,24 +53,16 @@ ul {
 }
 
  .sidebar-1, .main {
-    margin-top: 50px;
+    margin-top: 60px;
 }
 
 .header {
     background-color: #fff;
-    /* height: 50px; */
-    /* width: 100%; */
-    /* position: sticky; */
     position: fixed;
     top: 0px;
     width: 100%;
     z-index: 100;
 }
-
-/* .container {
-    position: fixed;
-    top: 0px;
-} */
 
 .header-left {
     width: 29%;
@@ -82,7 +74,6 @@ ul {
 
 .header-left .logo {
     font-size: 40PX;
-    /* vertical-align: middle; */
     color: #0072B1;
     padding: 7px;
 }
@@ -136,6 +127,7 @@ ul {
 }
 
 .nav-icon img {
+    /* padding-top: 5px; */
     height: 23px;
     border-radius: 50%;
 }
@@ -143,10 +135,15 @@ ul {
 .header-right li {
     /* padding: 4px 10px 3px 15px; */
     /* width: 65px; */
-    padding: 10px 12px;
+    padding: 7px 12px;
     display: inline-block;
     text-align: center;
     /* border: 2px solid red; */
+}
+
+.header-right .right {
+    padding-top: 3px;
+    border-left: 1px solid rgba(0,0,0,0.1);
 }
 
 .header .premium {
@@ -174,6 +171,7 @@ a:hover, #active a{
     /* padding: 12px 10px; */
     color: rgba(0,0,0,0.5);
     font-size: 12px;
+    /* height: 100vh; */
 }
 
 .sidebar-1 a {
@@ -674,7 +672,7 @@ a:hover, #active a{
 .sidebar-2 {
     width: 28%;   
     color: rgba(0,0,0,0.6);  
-    margin-top: 33px;
+    margin-top: 42px;
 }
 
 .sidebar-2 .news {
